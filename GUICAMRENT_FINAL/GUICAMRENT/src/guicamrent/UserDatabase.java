@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * ตัวกลางอ่าน/เขียนไฟล์ Database (users.txt)
@@ -14,9 +16,61 @@ import java.io.IOException;
 public class UserDatabase {
 
     public static final String FILE_NAME = "data/user.csv";
+    private  static String currentUser = null;
+
+    public static  void setcurrentUser(String username){
+        currentUser = username;
+    }
+
+    public  static String getCurrentUser(){
+        return currentUser;
+    }
 
     private UserDatabase() {
     }
+
+    public static boolean appendUserData(String username , String pickup , String returndate){
+        File file = new File(FILE_NAME);
+        if (username == null || !file.exists()) {
+            return false;
+        }
+
+        List<String> lines = new ArrayList<>();
+        boolean found = false;
+
+    try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+        String line;
+        while ((line = reader.readLine()) != null) {
+            String[] d = line.split(",", -1);
+            if (!found && d.length >= 2 && d[0].trim().equals(username)) {
+                String phone = d.length > 2 ? d[2] : "";
+                String email = d.length > 3 ? d[3] : "";
+                line = d[0] + "," + d[1] + "," + phone + "," + email + "," + pickup + "," + returndate;
+                found = true;
+            }
+            lines.add(line);
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+        return false;
+    }
+
+    if (!found) {
+        return false;
+    }
+
+    // เขียนทับไฟล์ (append = false)
+    try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, false))) {
+        for (String l : lines) {
+            writer.write(l);
+            writer.newLine();
+        }
+        return true;
+    } catch (IOException e) {
+        e.printStackTrace();
+        return false;
+    }
+}
 
     /** true ถ้ามี username นี้อยู่ใน Database แล้ว */
     public static boolean userExists(String username) {
@@ -51,6 +105,7 @@ public class UserDatabase {
                 if (d.length >= 2
                         && d[0].trim().equals(username)
                         && d[1].trim().equals(password)) {
+                            currentUser = username;
                     return true;
                 }
             }

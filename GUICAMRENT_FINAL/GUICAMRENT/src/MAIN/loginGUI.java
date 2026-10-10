@@ -1,6 +1,5 @@
 package MAIN;
 
-import guicamrent.CamrentSony;
 import guicamrent.CreateAccount;
 import guicamrent.Date_Time;
 import guicamrent.UserDatabase;
@@ -10,10 +9,6 @@ import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.Shape;
 import java.awt.geom.RoundRectangle2D;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 import javax.swing.BorderFactory;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
@@ -25,6 +20,7 @@ public class loginGUI extends javax.swing.JFrame {
 
     public loginGUI() {
         initComponents();
+        setResizable(true);
         getContentPane().setBackground(java.awt.Color.WHITE);
         setLocationRelativeTo(null);
 
@@ -107,7 +103,6 @@ public class loginGUI extends javax.swing.JFrame {
         }
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
