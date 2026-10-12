@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="BacktToFujifilm_BUTTON" min="-2" pref="72" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="ConfirmPriceFujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TotalFujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConfirmDayFujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="RealTotalFujifilmX100VI_LABEL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DayFujifilmX100VI_LABEL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConfirmPrice_LABEL" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="Spec2FujifilmX100VI_LABEL" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="PriceFujifilmX100VI_LABEL" min="-2" pref="133" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="FujifilmX100VI_LABEL" min="-2" pref="199" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="StatusFujifilmX100VI_TEXTFIELD" min="-2" pref="87" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="ConfirmRentFujifilmX100VI_BUTTON" min="-2" pref="159" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="Spec1FujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+              <Component id="FujifilmX100VI_PIC" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BacktToFujifilm_BUTTON" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="FujifilmX100VI_PIC" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FujifilmX100VI_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StatusFujifilmX100VI_TEXTFIELD" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="PriceFujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="Spec1FujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Spec2FujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConfirmPriceFujifilmX100VI_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConfirmPrice_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConfirmDayFujifilmX100VI_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DayFujifilmX100VI_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TotalFujifilmX100VI_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RealTotalFujifilmX100VI_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Component id="ConfirmRentFujifilmX100VI_BUTTON" min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace pref="99" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="guicamrent.RoundButton" name="BacktToFujifilm_BUTTON">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x2190;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BacktToFujifilm_BUTTONActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FujifilmX100VI_PIC">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/CAMPICresize/fujifilm-x100-vi.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fujifilm X 100 VI"/>
+      </Properties>
+    </Component>
+    <Component class="guicamrent.RoundTextField" name="StatusFujifilmX100VI_TEXTFIELD">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="avaliable"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StatusFujifilmX100VI_TEXTFIELDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PriceFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="20" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1,000 THB /day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Spec1FujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Camera with 23mm F2 lens, X-Trans CMOS 5 HR "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Spec2FujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="sensor, 40.2 megapixel resolution, and Film "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConfirmPriceFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Price per day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConfirmPrice_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1,900 THB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConfirmDayFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="number of days"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DayFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1 day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TotalFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RealTotalFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1,900 THB"/>
+      </Properties>
+    </Component>
+    <Component class="guicamrent.RoundButton" name="ConfirmRentFujifilmX100VI_BUTTON">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm rental"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConfirmRentFujifilmX100VI_BUTTONActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

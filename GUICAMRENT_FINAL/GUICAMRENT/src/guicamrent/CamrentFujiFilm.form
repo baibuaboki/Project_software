@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Camera_Label" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="RentalFujifilmGFX100S_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="SPEC2FujifilmGFX100S_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="SPEC1FujifilmGFX100S_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="FujifilmGFX100S_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="FujifilmX100VI_PIC" min="-2" pref="195" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="RENTPANASONICLUMIXDCGH6_BUTTON" min="-2" pref="106" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="FujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="RentalFujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="SPEC1FujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="SPEC2FujifilmX100VI_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="roundButton_Grey1" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="roundButton_Grey2" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="FujifilmGFX100S_PIC" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="RENTPANASONICLUMIXS9_BUTTON" min="-2" pref="106" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="roundButton_Grey3" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="roundButton1" min="-2" pref="83" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="LINER1_LABEL" min="-2" pref="353" max="-2" attributes="0"/>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Camera_Label" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="roundButton_Grey1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="roundButton_Grey2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="roundButton_Grey3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="roundButton1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="FujifilmGFX100S_PIC" min="-2" pref="137" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                      <Component id="RENTPANASONICLUMIXS9_BUTTON" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="FujifilmGFX100S_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="RentalFujifilmGFX100S_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="SPEC1FujifilmGFX100S_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="SPEC2FujifilmGFX100S_LABEL" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="FujifilmX100VI_PIC" min="-2" pref="143" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="RENTPANASONICLUMIXDCGH6_BUTTON" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="FujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="RentalFujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="SPEC1FujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="SPEC2FujifilmX100VI_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="47" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Component id="LINER1_LABEL" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="667" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="FujifilmGFX100S_PIC">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/CAMPICresize/gfx-100s.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FujifilmX100VI_PIC">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/CAMPICresize/fujifilm-x100-vi.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Camera_Label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Camera"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FujifilmGFX100S_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fujifilm GFX 100S"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RentalFujifilmGFX100S_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rental fee: 1,900 THB/day "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SPEC1FujifilmGFX100S_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medium format camera with 102MP 43.8 x "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SPEC2FujifilmGFX100S_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="32.9mm BSI CMOS sensor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fujifilm X100 VI"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RentalFujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rental fee: 1,000 THB/day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SPEC1FujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Camera with 23mm F2 lens, X-Trans CMOS 5 HR "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SPEC2FujifilmX100VI_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="sensor, 40.2 megapixel resolution, and Film "/>
+      </Properties>
+    </Component>
+    <Component class="guicamrent.RoundButton" name="RENTPANASONICLUMIXS9_BUTTON">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="RENTPANASONICLUMIXS9_BUTTONMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="guicamrent.RoundButton" name="RENTPANASONICLUMIXDCGH6_BUTTON">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="RENTPANASONICLUMIXDCGH6_BUTTONMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LINER1_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="_________________________________________________"/>
+      </Properties>
+    </Component>
+    <Component class="guicamrent.RoundButton_Grey" name="roundButton_Grey1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sony"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="roundButton_Grey1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="guicamrent.RoundButton_Grey" name="roundButton_Grey2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Panasonic"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="roundButton_Grey2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="guicamrent.RoundButton_Grey" name="roundButton_Grey3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Canon"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="roundButton_Grey3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="guicamrent.RoundButton" name="roundButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fujifilm"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

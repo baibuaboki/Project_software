@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="BackToPanasonic_BUTTON" min="-2" pref="72" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="ConfirmPricePanasonicLumixS9_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TotalPanasonicLumixS9_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConfirmDayPanasonicLumixS9_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="142" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="RealTotalPanasonicLumixS9_LABE" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DayPanasonicLumixS9_LABEL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConfirmPrice_LABEL" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="Spec2PanasonicLumixS9_LABEL" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="PricePanasonicLumixS9_LABEL" min="-2" pref="133" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="ConfirmRentPanasonicLumixS9_LABEL" min="-2" pref="159" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="Spec1PanasonicLumixS9_LABEL" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="PanasonicLumixS9_LABEL" min="-2" pref="235" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="StatusPanasonicLumixS9_LABEL" min="-2" pref="87" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+              <Component id="PanasonicLumixS9_PIC" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BackToPanasonic_BUTTON" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PanasonicLumixS9_PIC" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PanasonicLumixS9_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StatusPanasonicLumixS9_LABEL" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="PricePanasonicLumixS9_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="Spec1PanasonicLumixS9_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Spec2PanasonicLumixS9_LABEL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConfirmPricePanasonicLumixS9_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConfirmPrice_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConfirmDayPanasonicLumixS9_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DayPanasonicLumixS9_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TotalPanasonicLumixS9_LABEL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RealTotalPanasonicLumixS9_LABE" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Component id="ConfirmRentPanasonicLumixS9_LABEL" min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace pref="99" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="guicamrent.RoundButton" name="BackToPanasonic_BUTTON">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x2190;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackToPanasonic_BUTTONActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PanasonicLumixS9_PIC">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/CAMPICresize/panasonic-lumix-s9.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Panasonic Lumix S9"/>
+      </Properties>
+    </Component>
+    <Component class="guicamrent.RoundTextField" name="StatusPanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="avaliable"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StatusPanasonicLumixS9_LABELActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PricePanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="20" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="950 THB /day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Spec1PanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Full-Frame sensor, 24.2MP resolution"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Spec2PanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="5-axis IBIS image stabilization with 6.5 stops"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConfirmPricePanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Price per day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConfirmPrice_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="950 THB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConfirmDayPanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="number of days"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DayPanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1 day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TotalPanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RealTotalPanasonicLumixS9_LABE">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="950 THB"/>
+      </Properties>
+    </Component>
+    <Component class="guicamrent.RoundButton" name="ConfirmRentPanasonicLumixS9_LABEL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm rental"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConfirmRentPanasonicLumixS9_LABELActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
